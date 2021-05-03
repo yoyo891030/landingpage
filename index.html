@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+	<meta charset="UTF-8">
+	<!-- 手機版縮放 -->
+	<meta name="viewport" content="width=device-width, initial-scale=1" >
+	<title>OrangeMusic</title>
+	<!-- css連結 -->
+	<link href="css/style.css" rel="stylesheet">	
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+	<!-- 漢堡選單 -->
+	<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+	<a class="navbar-brand" href="#"><img src="img/logoo.png" alt=""></a>
+	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+	  	<span class="navbar-toggler-icon"></span>
+	  </button>
+
+	  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+	    <ul class="navbar-nav ml-auto">
+	      <li class="nav-item"><a class="nav-link" href="#section1">產品特色</a></li>
+	      <li class="nav-item"><a class="nav-link" href="#accordion">常見問題</a></li>
+	      <li class="nav-item"><a class="nav-link" href="#section3">立即訂閱</a></li>
+	    </ul>
+	  </div>
+	</nav>
+	<!-- banner -->
+	<div class="banner">
+		<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+		  <ol class="carousel-indicators">
+		    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+		    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+		  </ol>
+		  <!-- 輪播內容 -->
+		  <div class="carousel-inner">
+		    <div class="carousel-item active">
+		      <img src="img/banner11.png" class="d-block w-100" alt="...">
+		    </div>
+		    <div class="carousel-item">
+		      <img src="img/banner22.png" class="d-block w-100" alt="...">
+		    </div>
+		  </div>
+		  <!-- 左右箭頭 -->
+		  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+		    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+		    <span class="sr-only">Previous</span>
+		  </a>
+		  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+		    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+		    <span class="sr-only">Next</span>
+		  </a>
+		</div>
+	</div>	
+
+	<!-- 產品特色 -->
+	<div class="product" id="section1">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<p class="title text-center">產品特色</p>
+					<hr class="title_line">
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-3">
+					<div class="card">
+						<img src="img/1.png">
+						<p class="product_name text-center">8000萬首歌<br>所有裝置盡情聽</p>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="card">
+						<img src="img/2.png">
+						<p class="product_name text-center">不受廣告干擾<br>音樂體驗不間斷</p>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="card">
+						<img src="img/3.png">
+						<p class="product_name text-center">與好友共享歌單<br>一起分享心情</p>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="card">
+						<img src="img/4.png">
+						<p class="product_name text-center">即時歌詞顯示<br>跟著哼唱無障礙</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- 常見問題 -->
+<div id="accordion">
+	<p class="title text-center">常見問題</p>
+	<hr class="title_line">
+
+  <div class="card">
+    <div class="card-header" id="headingOne">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+          Orange Music是什麼？
+        </button>
+      </h5>
+    </div>
+    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+      <div class="card-body">
+        Orange Music是一款為您提供超過8000萬首歌曲的音樂串流服務，除了提供下載離線播放功能、即時顯示歌詞、在各種裝置隨時聆聽，使用者還能根據自己的心情，建立不同的歌單，與好友分享。
+      </div>
+    </div>
+
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingTwo">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          我要如何收聽 Orange Music？
+        </button>
+      </h5>
+    </div>
+    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+      <div class="card-body">
+        Orange Music 支援多種裝置，包含手機、平板電腦、筆記型電腦及桌上型電腦。只要到 iOS 的 App Store 或是 Android 的 Play 商店下載 Orange Music，即可開始享受美好音樂。
+      </div>
+    </div>
+
+
+
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingThree">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          訂閱費用如何計算？
+        </button>
+      </h5>
+    </div>
+    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+      <div class="card-body">
+        Orange Music提供三種訂閱方案，不同訂閱方案的費用不同。
+        <br>
+		1. 學生可以選擇每個月 NT $ 75 的 Orange Music 學生優惠方案。
+		<br>
+		2. 個人訂閱方案享有前三個免費試用期，試用結束之後每月只需 NT $ 130。
+		<br>
+		3. Orange Music 家庭方案可讓您將自己的帳號與另外最多 5 人分享，並提供每個成員一個個人帳號，每月只需 NT$270。
+      </div>
+    </div>
+
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingFour">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+          Orange Music 是否提供學生優惠方案？
+        </button>
+      </h5>
+    </div>
+    <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+      <div class="card-body">
+        Orange Music 以較低的價格，提供學生與其他個人用戶享有同樣的服務。一旦您的大專院校學生身份經過驗證，即可訂閱學生優惠方案。學生優惠方案最長可訂閱四年，四年後，您可繼續訂閱個人方案。
+      </div>
+    </div>
+
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingFive">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+          我可以與家人共享訂閱嗎？
+        </button>
+      </h5>
+    </div>
+    <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion">
+      <div class="card-body">
+        可以，Orange Music 提供家庭方案，讓至多六位家人共享 Orange Music 的所有服務。只要在 app 設定「家人共享」，並透過電子信箱邀請家人加入，即可開始使用。
+      </div>
+    </div>
+
+  </div>
+</div>
+
+	<!-- 立即訂閱 -->	
+	<div class="contact" id="section3">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<div class="text-right"><input type="submit" value="立即訂閱"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- footer -->
+	<footer>
+		<div class="container">
+		<p>Copyright &copy 2021 Ting-Yu Chen</p>
+		</div>
+	</footer>
+
+
+	<!-- JS連結 -->
+	<script src="js/jQuery.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
+
+
+
